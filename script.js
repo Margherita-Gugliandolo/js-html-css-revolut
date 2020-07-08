@@ -22,7 +22,7 @@ $(document).ready(function(){
    if(freccia==true){
      $('.list-name i').addClass('fa-chevron-down');
      $('.list-name i').removeClass('fa-chevron-up');
-   }else{
+   } else{
      $('.list-name i').addClass('fa-chevron-up');
      $('.list-name i').removeClass('fa-chevron-down');
    }
