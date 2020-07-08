@@ -15,10 +15,19 @@ $(document).ready(function(){
    $(this).next('.faq').slideToggle();
 
    //freccia su e giù
-   var freccia = $('i').hasClass('.fa-chevron-down');
+
+   var freccia = $('i').hasClass('fa-chevron-down');
    console.log(freccia);
 
-  });
+   if(freccia==true){
+     $('.list-name i').addClass('fa-chevron-up');
+     $('.list-name i').removeClass('fa-chevron-down');
+   }else{
+     $('.list-name i').addClass('fa-chevron-down');
+     $('.list-name i').removeClass('fa-chevron-up');
+   }
+
+    });
 
 // Menu Hamburger
 

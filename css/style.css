@@ -223,7 +223,7 @@ i.fa-chevron-up{
 }
 /* Elementi non visibili in versione deckstop */
 
-i.fas.fa-bars, footer, i.fa-chevron-up{
+i.fas.fa-bars, footer{
   display:none;
 }
 
@@ -237,7 +237,7 @@ header,#bottom-menu ul, input, p.small, .button{
 }
 
 /* parte visibile */
-i.fas.fa-bars, footer, .show{
+i.fas.fa-bars, footer, .show, i.fa-chevron-up{
   display:block;
 }
 
