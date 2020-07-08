@@ -14,11 +14,11 @@ $(document).ready(function(){
 
    $(this).next('.faq').slideToggle();
 
-   // freccia su e giù
+   //freccia su e giù
    var freccia = $('i').hasClass('.fa-chevron-down');
-console.log(freccia);
+   console.log(freccia);
 
- });
+  });
 
 // Menu Hamburger
 

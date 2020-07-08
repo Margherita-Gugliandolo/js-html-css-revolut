@@ -157,6 +157,7 @@ input:first-child{
 /* Hamburger menu */
 .hamburger-menu{
   width:100%;
+  height: 150vh;
   position: absolute;
   top:0px;
   left:0;
